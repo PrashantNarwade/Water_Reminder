@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/splash" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign to Continue"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="UserName"
+            style="@style/MaterialAlertDialog.Material3"
+             android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+           android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        style="@style/MaterialAlertDialog.Material3"
+        android:textSize="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+  android:inputType="textPassword"
+        />
+           <com.google.android.material.textview.MaterialTextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Forgat Password"
+               android:textSize="20dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginStart="20dp"
+               android:layout_marginEnd="20dp"
+               android:textColor="@color/purple_700"
+
+               />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/log"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/login"
+                android:background="@color/white"
+                />
+            <ImageButton
+                android:id="@+id/newu"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="70dp"
+                android:src="@drawable/i"
+                android:background="@color/white"
+
+                />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</LinearLayout>

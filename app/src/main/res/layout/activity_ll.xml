@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ll"
+    android:orientation="vertical"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/dr"
+  />
+
+  </LinearLayout>
+  <com.google.android.material.textfield.MaterialAutoCompleteTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:hint="User_name"
+      android:textColor="@color/black"
+      android:textSize="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+    />
+  <com.google.android.material.textfield.MaterialAutoCompleteTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Password"
+      android:textSize="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="10dp"
+      android:inputType="textPassword"
+
+
+    />
+  <com.google.android.material.textfield.MaterialAutoCompleteTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Confirm_Password"
+      android:textSize="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="10dp"
+      android:inputType="textPassword"
+
+
+      />
+  <com.google.android.material.textfield.MaterialAutoCompleteTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Phone_No"
+      android:textSize="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="10dp"
+      android:inputType="textPassword"
+
+
+      />
+  <com.google.android.material.textfield.MaterialAutoCompleteTextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="EmailAddress"
+      android:textSize="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginTop="10dp"
+      android:inputType="textEmailAddress"
+
+
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="130dp"
+        android:text="@string/next"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/regi"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+      />
+  </LinearLayout>
+</LinearLayout>
